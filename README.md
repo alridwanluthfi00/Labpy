@@ -31,3 +31,19 @@ _Tambah elemen list_
 * b.extend([16, 18, 20]) menambah list B dengan 3 nilai
 * x = a + b menggabungkan list B dengan list A
 
+__Output code__ :
+
+![5](https://user-images.githubusercontent.com/73066008/100229061-3ce0f200-2f56-11eb-97e5-53569f5b7cc3.png)
+
+## Tugas Praktikum 4
+
+![2](https://user-images.githubusercontent.com/73066008/100228876-f095b200-2f55-11eb-94fd-503c31523a03.png)
+
+__Input code__ :
+
+
+
+
+
+
+
