@@ -41,9 +41,23 @@ __Output code__ :
 
 __Input code__ :
 
+![6](https://user-images.githubusercontent.com/73066008/100290868-e81d9580-2fae-11eb-953c-9c998c1b1498.png)
 
+__Penjelasan__ :
 
+* data = [] Membuat list kosong yang nanti akan di isi
+* while ulangi =='y': Membuat perulangan dengan variabel ulangi, dimana ketika memilih 'y' maka akan otomatis mengulang pengisian data
+* nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
+* data.append([nama, nim, nilai_tugas, nilai_uts, nilai_uas, int(nilai_akhir)]) Memasukkan variabel input ke dalam list data
+* ulangi = (input('tambah data?(y/t)')) Ketika memilih 't' if ulangi == 't': maka cetaklah hasil
 
+__Output code__ :
+
+![7](https://user-images.githubusercontent.com/73066008/100290888-f2d82a80-2fae-11eb-8036-07ae24ac5dad.png)
+
+__Flowchart__ :
+
+![8](https://user-images.githubusercontent.com/73066008/100294630-fa510100-2fb9-11eb-8f7b-ab4d0b9dc200.png)
 
 
 
