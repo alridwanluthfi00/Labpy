@@ -1,3 +1,9 @@
+# Nama         :  Luthfi Al Ridwan
+# NIM          :  312010112
+# Kelas        :  TI. 20.A.1
+# Mata Kuliah  :  Bahasa Pemrograman
+-----------------------------------------------------------------------------------------------------------
+
 # Lab 4
 ## Latihan 
 
@@ -139,5 +145,26 @@ _Keluar_
 
 __Output code__ :
 
+_Lihat data_
 
+![15](https://user-images.githubusercontent.com/73066008/100320159-5d12be80-2ff3-11eb-80da-c2b06f08afd5.png)
 
+_Tambah data_
+
+![16](https://user-images.githubusercontent.com/73066008/100328356-0317f600-2fff-11eb-968c-a80cc5ff356e.png)
+
+_Hapus data_
+
+![18](https://user-images.githubusercontent.com/73066008/100328484-280c6900-2fff-11eb-813b-efe7f1ed04ac.png)
+
+_Ubah data_
+
+![17](https://user-images.githubusercontent.com/73066008/100328396-0e6b2180-2fff-11eb-9f68-099ae9c61477.png)
+
+_Mencari data_
+
+![19](https://user-images.githubusercontent.com/73066008/100328510-2fcc0d80-2fff-11eb-9963-0a099d8a5d45.png)
+
+_Keluar_
+
+![20](https://user-images.githubusercontent.com/73066008/100333460-32316600-3005-11eb-9599-41445a85669a.png)
