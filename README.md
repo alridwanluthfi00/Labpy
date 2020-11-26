@@ -87,15 +87,11 @@ _Header_
 * masukan nama, nim, nilai_tugas, nilai_uts, nilai_uas, dan nilai_akhir yang nanti akan di masukkan kedalam data={}
 * Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
 
-_Keluar_
-
-* if menu.lower() == 'k': Ambil data 'k' dari menu
-* lalu break untuk menghentikan seluruh proses
-
 _Lihat data_
 
 * elif menu.lower() == 'l': Kita menggunakan kondisi percabangan if, ambil data dari menu lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi lower()
 * lalu cetak print()
+
 _Tambah data_
 
 * elif menu.lower() == 't': Ambil data 't' dari menu
@@ -117,14 +113,6 @@ sub_data = input("(Semua), (Nama), (NIM), (Tugas), (UTS), (UAS) : ") membuat men
 * lalu cetak print("\nBerhasil ubah data!")
 * else: print("'{}' tidak ditemukan.".format(nama)) jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
-_Cari data_
-
-* elif menu.lower() == 'c': Ambil data 'c' dari menu
-* nama = input("Masukan nama untuk mencari data: ") kita akan menginput data yang nanti akan di cari
-* if nama in data.keys(): kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
-* maka cetak print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}" untuk menampilkan data yang tersedia
-* else: print("'{}' tidak ditemukan.".format(nama)) jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
-
 _Hapus data_
 
 * elif menu.lower() == 'h': Ambil data 'h' dari menu
@@ -133,6 +121,21 @@ _Hapus data_
 * del data[nama] hapus semua 'nama' yang ada di dalam 'data'
 * jika sudah maka cetak print("sub_data '{}' berhasil dihapus.".format(nama))
 * else: print("'{}' tidak ditemukan.".format(nama)) jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
+
+_Cari data_
+
+* elif menu.lower() == 'c': Ambil data 'c' dari menu
+* nama = input("Masukan nama untuk mencari data: ") kita akan menginput data yang nanti akan di cari
+* if nama in data.keys(): kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
+* maka cetak print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}" untuk menampilkan data yang tersedia
+* else: print("'{}' tidak ditemukan.".format(nama)) jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
+
+_Keluar_
+
+* if menu.lower() == 'k': Ambil data 'k' dari menu
+* lalu break untuk menghentikan seluruh proses
+
+
 
 __Output code__ :
 
